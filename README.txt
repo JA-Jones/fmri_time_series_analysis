@@ -3,8 +3,7 @@ Script for the import and analysis of functional time-series MRI data
 Data extracted via fslmeants from pre-processed functional MRI data (see other scripts) using an atlas based approach
 Script will import text files creating data-frames for each subject, correlate these to create a within subject functional correlation matrix,
 finally these matrices will be flattened, stacked and concatenated with a variable/regressor spreadsheet (containing variables of interest
-e.g. IQ/sex/weight etc. which can then be used to correlate with each ROI-ROI correlation matrix) to note, no multiple comparison correction is used
-in this instance.
+e.g. IQ/sex/weight etc. which can then be used to correlate with each ROI-ROI correlation matrix) to note, no multiple comparison correction is used in this instance.
 
 file setup:
 1012/time_series is a folder than contains a series of text files (containing time-series data) extracted from a ROI based approach with functional fMRI data.
